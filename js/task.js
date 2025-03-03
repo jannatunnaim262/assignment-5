@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
         button.addEventListener("click", function () {
             if (this.classList.contains("completed")) return;
 
+        
             // Disable button
             this.classList.add("disabled");
             this.textContent = "Completed";
